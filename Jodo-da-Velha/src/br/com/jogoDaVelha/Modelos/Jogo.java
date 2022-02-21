@@ -67,9 +67,9 @@ public class Jogo {
         }
 
         if (ganhou() == -1) {
-            System.out.println("\nO primeiro Jogador VENCEU!");
+            System.out.println("\nO Jogador 'X' VENCEU!");
         } else {
-            System.out.println("\nO segundo Jogador VENCEU!");
+            System.out.println("\nO Jogador 'O' VENCEU!");
         }
 
         return false;
