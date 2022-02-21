@@ -26,7 +26,7 @@ public class Jogo {
             this.jogador1 = new CriandoJogador(2);
             this.jogador2 = new CriandoJogador(1);
         }
-        System.out.println("Jogador bolinha e xizinho criados!");
+        System.out.println("Jogador 'O' e 'X' criados!");
     }
 
     private int escolherJogador() {
