@@ -50,7 +50,7 @@ public class Jogo {
             System.out.println("\n-----Rodada " + rodada + "-----");
             System.out.println("Vez do jogador " + vez());
 
-            if (vez() == 1) {
+            if (vez().equals("'X'")) {
                 jogador1.Jogar(tabuleiro);
             } else {
                 jogador2.Jogar(tabuleiro);
@@ -86,9 +86,9 @@ public class Jogo {
 
     public int vez() {
         if (vez%2 == 1) {
-            return 1;
+            return "'X'";
         }
-        return 2;
+        return "'O'";
     }
 
     public int ganhou() {
