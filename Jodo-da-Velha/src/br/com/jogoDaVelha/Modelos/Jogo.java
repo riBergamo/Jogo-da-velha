@@ -35,7 +35,7 @@ public class Jogo {
         do {
             System.out.println("1. X");
             System.out.println("2. O\n");
-            System.out.print("Primeiro jogador escolhe: [1, 2] ");
+            System.out.print("Primeiro jogador escolhe: [1 ou 2] ");
             opcao = scanner.nextInt();
             if (opcao != 1 && opcao != 2) {
                 System.out.println("Opção inválida! Tente novamente ");
@@ -50,7 +50,7 @@ public class Jogo {
             System.out.println("\n-----Rodada " + rodada + "-----");
             System.out.println("Vez do jogador " + vez());
 
-            if (vez() == 1)) {
+            if (vez() == 1) {
                 jogador1.Jogar(tabuleiro);
             } else {
                 jogador2.Jogar(tabuleiro);
